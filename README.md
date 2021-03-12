@@ -74,7 +74,7 @@ It must:
 * implement tests.
 * be easy to set up and deploy. :children_crossing:
 
-Small commits make it easier for us to understand the evolution of your line of reasoning.
+Atomic commits make it easier for us to understand the evolution of your line of reasoning.
 
 ## User Stories
 
@@ -85,10 +85,11 @@ As an anonymous user I want to:
 
 As logged-in user, I want to:
 * see my feed with private and public posts from users I follow.
+* see suggestions of new users to follow, if user isn't following anyone yet
 * create new posts (content, color, visibility)
 * search for users to follow
 * see users pages
-* follow users
+* follow/unfollow users
 * (bonus) see my feed updating in realtime
 
 ## Deliverables
